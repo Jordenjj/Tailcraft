@@ -1,11 +1,12 @@
 # Tailcraft
- CraftCMS + Tailwind boilerplate
+CraftCMS + Tailwind boilerplate
 
-This is a pre-configured CraftCMS installation that employs TailwindCSS' CLI build process.
+A pre-configured CraftCMS installation that employs TailwindCSS' CLI build process.
 
 ## Installation
 - Install Composer
 - Run `composer install` & `composer update`
+- Since CraftCMS is pre-installed, it might not be the latest version when the repo is cloned. Use ```php craft update all``` to ensure the latest version of CraftCMS
 - Run
 ```
 npm install -D tailwindcss
@@ -17,4 +18,4 @@ npx tailwindcss init
 - Configure Craft by going to <domain.com>/admin
 
 ## Use
-Wheb building, use TailwindCSS styles in the templates, and make sure the build server is running.
+When building, use TailwindCSS styles in the templates, and make sure the build server is running.
