@@ -1,3 +1,6 @@
+# DEPRECATED for Craftcms 4
+
+
 # Tailcraft
 CraftCMS + Tailwind boilerplate
 
